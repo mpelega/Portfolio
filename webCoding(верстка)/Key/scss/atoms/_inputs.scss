@@ -1,0 +1,24 @@
+.c-getin__name,
+.c-getin__emails,
+.c-getin__sub,
+.c-getin__web,
+.c-getin__message {
+    background: none;
+    border: 1px solid $white;
+    padding: 5px;
+}
+
+
+.c-getin__name:hover, .c-getin__name:focus,
+.c-getin__emails:hover, .c-getin__emails:focus,
+.c-getin__sub:hover, .c-getin__sub:focus,
+.c-getin__web:hover, .c-getin__web:focus,
+.c-getin__message:hover, .c-getin__message:focus {
+    background: none;
+    border: 1px solid $hover-contacts-logo;
+
+}
+
+::-webkit-input-placeholder {
+    @include font-source-sans($font-size-follow, $white, 300, 26px); 
+   }

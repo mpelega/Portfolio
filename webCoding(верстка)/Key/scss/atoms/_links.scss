@@ -1,0 +1,110 @@
+
+.c-link_call, .c-link_mail {
+    @include font-source-sans($font-size-links,$header-link-color, 300);
+    display: flex;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+    &:hover {
+        color: $link-hover-black-color;
+        text-shadow: $call-text-shadow-color 0px 1px,
+                     $call-text-shadow-color 1px 1px,
+                     $call-text-shadow-color 1px 0px,
+                     $call-text-shadow-color 0px -1px,
+                     $call-text-shadow-color -1px 0px;
+    }
+    &:focus {
+        color: $link-focus-color;
+    }
+    .pe-7s-call {
+        font-size: 20px;
+        text-align: left;
+    }
+    .pe-7s-mail {
+        font-size: 25px;
+        text-align: left;
+    }
+}
+
+
+
+.c-hidden-menu__link_header-theme {
+    @include font-source-sans($font-size-links,$header-link-color, 300,11px);
+    text-align: right;
+    &:hover {
+        color: $link-hover-black-color;
+        text-shadow: $hidden-menu-shadow-color 0px 1px,
+                     $hidden-menu-shadow-color 1px 1px,
+                     $hidden-menu-shadow-color 1px 0px,
+                     $hidden-menu-shadow-color 0px -1px,
+                     $hidden-menu-shadow-color -1px 0px;
+    }
+    &:focus {
+        color: $link-focus-color;
+    }
+}
+
+.c-menu__logo_mart {
+    @include font-source-roboto($font-size-mart,$content-link-mart-color, 300,32px);
+    &:hover {
+        @extend %links__hover_main_theme ;
+    }
+    margin: 30px;
+    text-transform: uppercase;
+    &::before {
+        content: 'm';
+        @include font-source-roboto($font-size-mart,$main-theme, 900,32px);
+    }
+}
+.c-menu__cart_search {
+    @include font-source-roboto($font-size-cart,$content-link-section-theme-color, 400,11px);
+    text-transform: uppercase;
+    &:hover {
+        @extend %links__hover_main_theme ;
+    }
+}
+.c-menu__link_section-theme {
+    @include font-source-sans($font-size-links,$content-link-section-theme-color, 700,11px);
+    text-transform: uppercase;
+    margin: 15px;
+    &:hover {
+        @extend %links__hover_main_theme ;
+    }
+}
+
+.c-things__all,
+.c-things__dresses,
+.c-things__accessories,
+.c-things__misce {
+    padding: 5px;
+    border: 1px solid $border-nav-color;
+    border-radius: 3px;
+    text-align: center;
+    @include font-source-roboto($font-size-links, $content-link-mart-color, 400,32px);
+    text-transform: uppercase;
+    position: relative;
+    &:hover {
+        @extend %links__hover_primary_theme ;
+        border: 1px solid $main-theme;
+        
+            &:before {
+                content:'8';
+                @include font-source-roboto($font-size-hover-menu, $main-theme, 700);
+                display: inline-block;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                border: 1px solid $section-border-hover-coler;
+                background: $white;
+                position: absolute;
+                bottom: 40px;
+            }
+    }
+    
+    
+}
+
+
+.c-footer__copy_main-theme {
+    @include font-source-sans($font-size-follow, $footer-text-main-theme-color, 400, 28px);
+}

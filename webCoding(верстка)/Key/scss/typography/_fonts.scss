@@ -1,0 +1,47 @@
+
+/* подключены через мета */
+
+$font-open: 'Open Sans', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-times: 'Times New Roman', sans-serif;
+$font-myriad: 'myriad-pro', sans-serif;
+
+
+/* подключены локально */
+
+@font-face {
+    font-family: 'Roboto', 'Open Sans';
+
+    src: url(../../fonts/Roboto/Roboto-Black.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-BlackItalic.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Bold.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-BoldItalic.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Italic.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Light.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-LightItalic.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Medium.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-MediumItalic.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Regular.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-Thin.ttf) format('truetype'),
+         url(../../fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype'),
+
+         url(../../fonts/Open_Sans/OpenSans-Bold.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-BoldItalic.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-ExtraBold.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-Italic.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-LightItalic.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-SemiBold.ttf) format('truetype'),
+         url(../../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf) format('truetype');
+    
+
+         font-weight: 500;
+         font-style: normal;
+         
+    
+    
+}
+
+

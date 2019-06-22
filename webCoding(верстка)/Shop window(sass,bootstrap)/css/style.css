@@ -1,0 +1,811 @@
+@charset "UTF-8";
+/*============    ШРИФТЫ    ===========*/
+/*============    Basic setting    ===========*/
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/*============    Header    ===========*/
+header {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  height: 110px;
+}
+
+header .logotype p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header .descript h4 {
+  text-transform: uppercase;
+}
+
+header .descript h5 {
+  font-size: 15px;
+}
+
+header .phone_number {
+  text-align: right;
+}
+
+header .phone_number h3 {
+  margin-top: 7px;
+}
+
+header .phone_number a {
+  color: #666666;
+}
+
+header .phone_number a:hover, header .phone_number a:focus {
+  text-decoration: none;
+}
+
+header .phone_number a:before {
+  content: '';
+  margin-left: 3px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: url(../img/phone_icon.png) center center no-repeat;
+  display: inline-block;
+}
+
+/*============  Navigation   ===========*/
+nav {
+  top: 110px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #fafdfa;
+}
+
+ul.list-inline a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  color: #666666;
+}
+
+ul.list-inline a:hover, ul.list-inline a:focus {
+  text-decoration: none;
+  background-color: #67cc67;
+  color: #fff;
+}
+
+ul.list-inline {
+  margin-bottom: 0;
+}
+
+/*============    Main    ===========*/
+section#main {
+  background: url(../img/main_bg_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+section#main .main_header h1 {
+  margin-top: 190px;
+  margin-bottom: 90px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#main .main_header h1 span {
+  background-color: #67cc67;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+section#main .main_header h3 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #666666;
+}
+
+section#main .main_header h3 span {
+  color: #ff9933;
+}
+
+section#main .main_buttons {
+  margin-top: 7px;
+  margin-bottom: 100px;
+}
+
+section#main .main_buttons button#get_measurer {
+  border: none;
+  background-color: #ff9933;
+  padding: 19px 35px;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+section#main .main_buttons button#get_measurer:hover {
+  background-color: #d67513;
+}
+
+section#main .main_buttons button#get_types {
+  border: none;
+  background-color: transparent;
+  padding: 17px 35px;
+  color: #ff9933;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 2px solid #ff9933;
+  margin-left: 20px;
+}
+
+section#main .main_buttons button#get_types:hover {
+  background-color: #fff;
+}
+
+.section_header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/*============   kinds window   ===========*/
+section#types {
+  padding-top: 50px;
+}
+
+section#types .section_header {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+section#types h4 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section#types h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section#types button.more_btn {
+  border: none;
+  color: #66cc66;
+  border: 2px solid  #66cc66;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+section#types button.more_btn:hover {
+  background-color: #66cc66;
+  color: #fff;
+}
+
+section#types button.ofer_btn {
+  border: none;
+  color: #66cc66;
+  border: 2px solid  #66cc66;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #66cc66;
+  color: #fff;
+}
+
+section#types button.ofer_btn:hover {
+  background-color: transparent;
+  color: #66cc66;
+}
+
+section#types .card {
+  padding: 5px;
+  border: 2px solid transparent;
+}
+
+section#types .card:hover {
+  border: 2px solid #b2e5b2;
+  background-color: #fafdfa;
+}
+
+/*============    Consyltation   ===========*/
+section#help {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+section#help h3 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#help p {
+  color: #666666;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+section#help img {
+  margin-top: 25px;
+}
+
+section#help button#free_consult {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: #ff9933;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 15px 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#help button#free_consult:hover {
+  background-color: #ff9933;
+  color: #fff;
+}
+
+/*============    Sales   ===========*/
+section#offer {
+  padding-top: 70px;
+}
+
+section#offer h4 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#offer h3 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#offer p {
+  font-weight: lighter;
+  font-size: 22px;
+  color: #666666;
+}
+
+section#offer input[name="name"] {
+  background: url(../img/name_input.png) no-repeat center left 5px;
+  padding: 20px;
+  padding-left: 30px;
+  border-radius: 0;
+  font-weight: lighter;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 1px #cccccc;
+  opacity: 0.5;
+}
+
+section#offer input[name="name"]:hover {
+  opacity: 1;
+}
+
+section#offer input[name="name"]:focus {
+  opacity: 1;
+  border: solid 1px orange;
+}
+
+section#offer input[name="phone"] {
+  background: url(../img/phone_input.png) no-repeat center left 5px;
+  padding: 20px;
+  padding-left: 30px;
+  border-radius: 0;
+  font-weight: lighter;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 1px #cccccc;
+  opacity: 0.5;
+}
+
+section#offer input[name="phone"]:hover {
+  opacity: 1;
+}
+
+section#offer input[name="phone"]:focus {
+  opacity: 1;
+  border: solid 1px orange;
+}
+
+section#offer button[type="submit"] {
+  background-color: #ff9933;
+  color: #fff;
+  padding: 11px 25px;
+  border: none;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section#offer button[type="submit"]:hover {
+  background-color: #fc8b1a;
+}
+
+/*============    Feedbacks    ===========*/
+section#feedback {
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+
+section#feedback .section_header {
+  margin-bottom: 50px;
+}
+
+section#feedback h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section#feedback .item {
+  height: 340px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+section#feedback .item h5 {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #666666;
+}
+
+section#feedback .item p {
+  margin-top: 30px;
+}
+
+section#feedback .carousel-indicators {
+  bottom: -50px;
+}
+
+section#feedback .carousel-indicators .active {
+  background-color: #ff9933;
+  height: 13px;
+}
+
+section#feedback .carousel-indicators li {
+  border: 1px solid #ff9933;
+}
+
+.audio {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/*============   contacts    ===========*/
+footer {
+  padding-bottom: 10px;
+  padding-top: 30px;
+  background-color: #666666;
+  color: #ffffff;
+}
+
+footer h2 {
+  margin-left: -15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer address p#address {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+footer address p#address:before {
+  content: '';
+  width: 14px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: 3px;
+  background: url(../img/map_marker.png);
+}
+
+footer address p#dnepr {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+footer p#phone_footer {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+footer p#phone_footer:before {
+  content: '';
+  width: 14px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: 3px;
+  background: url(../img/phone_marker.png);
+}
+
+footer p#number {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.social_icon {
+  margin-right: 6px;
+  display: inline-block;
+  background-color: #ccc;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.social_icon:hover {
+  background-color: #fff;
+}
+
+button#get_answer {
+  margin-left: 10px;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 7px 35px;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+button#get_answer:hover {
+  background-color: #fff;
+  color: #666666;
+}
+
+.details_row {
+  margin-top: 30px;
+}
+
+.details_row h5 {
+  font-size: 20px;
+}
+
+.details_row p {
+  text-transform: uppercase;
+}
+
+.policy {
+  text-align: center;
+}
+
+.policy a {
+  color: #fff;
+  border-bottom: 2px dashed #fff;
+}
+
+.shelest {
+  text-align: right;
+}
+
+.shelest h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.shelest a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/*============    Modal    ===========*/
+.modal-dialog {
+  margin-top: 10%;
+}
+
+.big_modal {
+  width: 65%;
+}
+
+.header_modal h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #666666;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom: none;
+  margin-top: -50px;
+}
+
+.modal-header .close {
+  color: #fff;
+  opacity: 0.8;
+  margin-right: -30px;
+}
+
+.modal-content {
+  border-radius: 0;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.modal-content input[name="name"] {
+  background: url(../img/name_input.png) no-repeat center left 5px;
+  padding: 20px;
+  margin-top: 15px;
+  padding-left: 30px;
+  border-radius: 0;
+  font-weight: lighter;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 1px #cccccc;
+  opacity: 0.5;
+}
+
+.modal-content input[name="name"]:hover {
+  opacity: 1;
+}
+
+.modal-content input[name="name"]:focus {
+  opacity: 1;
+  border: solid 1px orange;
+}
+
+.modal-content textarea {
+  width: 100%;
+  font-weight: lighter;
+  margin-top: 15px;
+  padding: 25px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: solid 1px #cccccc;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal-content textarea:hover {
+  opacity: 1;
+}
+
+.modal-content textarea:focus {
+  opacity: 1;
+  border: solid 1px orange;
+}
+
+.modal-content input[name="phone"] {
+  margin-top: 15px;
+  background: url(../img/phone_input.png) no-repeat center left 5px;
+  padding: 20px;
+  padding-left: 30px;
+  border-radius: 0;
+  font-weight: lighter;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: solid 1px #cccccc;
+  opacity: 0.5;
+}
+
+.modal-content input[name="phone"]:hover {
+  opacity: 1;
+}
+
+.modal-content input[name="phone"]:focus {
+  opacity: 1;
+  border: solid 1px orange;
+}
+
+.modal-content button[type="submit"] {
+  background-color: #ff9933;
+  margin-top: 15px;
+  color: #fff;
+  padding: 11px 25px;
+  border: none;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: #fc8b1a;
+}
+
+.modal-content p {
+  font-size: 18px;
+}
+
+.header_modal_info h4 {
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 21px;
+}
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
+.dropdown-toggle {
+  border: 1px solid #000000;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #666666;
+  margin-left: -10px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #666666;
+  color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  nav {
+    top: 0;
+    height: 50px;
+    padding-top: 10px;
+  }
+  section#main .main_header h1 {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section#main .main_header h1 span {
+    line-height: 1.7;
+    padding: 10px;
+  }
+  section#main h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#main .main_buttons button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 47px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  section#types .card {
+    padding-bottom: 10px;
+  }
+  section#types .card button.more_btn {
+    font-size: 12px;
+  }
+  section#types .card button.offer_btn {
+    font-size: 12px;
+  }
+  section#help button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#feedback {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  nav {
+    top: 0;
+    height: 50px;
+    padding-top: 10px;
+  }
+  section#main .main_header h1 {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section#main .main_header h1 span {
+    line-height: 1.7;
+    padding: 10px;
+  }
+  section#main h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#main .main_buttons button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 47px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  section#types .card {
+    padding-bottom: 10px;
+  }
+  section#types .card button.more_btn {
+    font-size: 12px;
+  }
+  section#types .card button.offer_btn {
+    font-size: 12px;
+  }
+  section#help button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#feedback {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  nav {
+    top: 0;
+    height: 50px;
+    padding-top: 10px;
+  }
+  section#main .main_header h1 {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section#main .main_header h1 span {
+    line-height: 1.7;
+    padding: 10px;
+  }
+  section#main h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#main .main_buttons button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 47px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  section#types .card {
+    padding-bottom: 10px;
+  }
+  section#types .card button.more_btn {
+    font-size: 12px;
+  }
+  section#types .card button.offer_btn {
+    font-size: 12px;
+  }
+  section#help button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#feedback {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

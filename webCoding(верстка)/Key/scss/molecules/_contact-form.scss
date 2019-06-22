@@ -1,0 +1,14 @@
+.c-getin__form {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: repeat(2,50px) 120px 50px;
+        .c-getin__message {
+            display: grid;
+            grid-column: 1 / 3;   
+        }
+        .c-getin__send {
+            width: 151px;
+        }
+}
+

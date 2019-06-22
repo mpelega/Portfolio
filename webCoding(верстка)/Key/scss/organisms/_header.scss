@@ -1,0 +1,25 @@
+.l-header {
+    background:$main-theme ;
+}
+.c-header {
+    display: flex;
+    box-sizing: border-box;
+    background: $main-theme ;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menu_primery {
+    display: flex;
+    flex: 0 0 63%;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.c-link_call, .c-link_mail {
+    flex: 0 0 11%;
+    justify-content: flex-start;
+}

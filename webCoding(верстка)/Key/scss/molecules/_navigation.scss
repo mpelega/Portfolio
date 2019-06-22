@@ -1,0 +1,125 @@
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  right: -200px;
+  transition: right .4s;
+  z-index: 2;
+  text-align: right;
+}
+.hidden-menu-ticker {
+  display: none;
+}
+.hidden-menu-ticker:checked ~ .btn-menu {
+  right: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  right: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  transform: rotate(45deg);
+  top: 10px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  transform: rotate(-45deg);
+  top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 5000px)  {
+    .hidden-menu {
+        display: flex;
+        height: inherit;
+        position: static;
+        box-sizing: border-box;
+        width: inherit;
+        justify-content: stretch;
+        padding: 0;
+        
+        flex-direction: row;
+    }
+    .hidden-menu li {
+        display: flex;
+        padding-top: 0 ;
+        padding-bottom: 0;
+        padding-right: 30px;
+        align-items: center;
+        position: static;
+    }
+    .btn-menu, .btn-menu span {
+        display: none;
+        position: static;
+    }
+    .c-link_call{
+    margin-left: 30px;
+    }
+    .c-link_mail {
+    margin-right: 0;
+  }
+
+}
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    .hidden-menu {
+        display: block;
+        position: fixed;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 200px;
+        background-color: rgb(43, 31, 31);
+        height: 100%;
+        top: 0;
+        right: -200px;
+        transition: right .4s;
+        z-index: 2;
+        text-align: center;
+    }
+    .hidden-menu li {
+        margin: 10px 0;
+    }
+    .c-link_call{
+    margin-left: 30px;
+    }
+    .c-link_mail {
+    margin-right: 0;
+  }
+    
+
+}

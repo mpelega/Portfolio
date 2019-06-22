@@ -1,0 +1,108 @@
+
+
+.btn-menu {
+  color: $white;
+  background-color: $back-btn-menu;
+  padding: 5px;
+  position: fixed;
+  top: 7px;
+  right: 7px;
+  cursor: pointer;
+  transition: right .43s;
+  z-index: 3;
+  width: 35px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: $white;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.c-email__write {
+  border-radius: 5px;
+  background-color:  $white;
+  width: 540px;
+  height: 60px;
+  border: none;
+  padding: 5px;
+        .c-email__write[placeholder] {
+          @include font-source-sans($font-size-follow, $content-link-mart-color, 300, 26px);
+        }
+}
+
+.c-email {
+  position: relative;
+}
+
+.c-email__send {
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-color:  $main-theme-lithen;
+width: 89px;
+height: 56px;
+position: absolute;
+bottom: 2px;
+right: 6px;
+border: none;
+color: $white;
+}
+
+.c-email__send:hover {
+  background-color:  $main-theme;
+}
+
+.c-info__read {
+border-radius: 3px;
+background-color:  $main-theme-lithen;
+width: 160px;
+height: 51px;
+border: none;
+    .c-text {
+      @include font-source-sans($font-size-follow, $white, 300, 26px);
+      text-transform: capitalize;
+    }
+}
+
+.c-info__read:hover {
+      background-color:  $main-theme;
+    }
+
+.c-getin__send {
+  background: $hover-contacts-logo;
+  @include font-source-roboto($font-size-follow, $white, 400, 45px);
+  border: 1px solid $hover-contacts-logo;
+  text-transform: uppercase;
+}
+
+.c-getin__send:hover {
+  background: none;
+  @include font-source-roboto($font-size-follow, $hover-contacts-logo, 400, 45px);
+  border: 1px solid $hover-contacts-logo;
+  cursor: pointer;
+    span {
+      color: $white;
+    }
+}
+
+.c-carousel__send {
+  background: none;
+  @include font-source-roboto($font-size-follow, $white, 400);
+  border: 2px solid $hover-contacts-logo;
+  cursor: pointer;
+  width: 116px;
+  height: 38px;
+  text-transform: uppercase;
+}
+
+.c-carousel__send:hover {
+  @include font-source-roboto($font-size-follow, $hover-contacts-logo, 400);
+  border: 2px solid $white;
+}

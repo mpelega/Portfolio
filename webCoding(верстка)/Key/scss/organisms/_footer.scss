@@ -1,0 +1,18 @@
+.l-footer {
+    background: $footer-main-theme-color;
+            .l-footer__container {
+                max-width: 1170px;
+                margin: 0 auto;
+                display: flex;
+                box-sizing: border-box;
+                height: 88px;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                padding: 0 30px;
+                    .c-footer__copy {
+                        @include font-source-sans($font-size-follow, $footer-text-color, 400, 28px);
+                    }
+            }
+}
