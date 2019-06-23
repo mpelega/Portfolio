@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.gallery{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    display: block;
+    margin: 1px;
+}

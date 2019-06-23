@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    background-color: #6633bb;
+    padding: 20px 50px;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+    transition: background-color 0.3s;
+    overflow: visible;
+    
+}
+
+.button:hover{
+    background-color: #8366b1;
+    cursor: pointer;
+}
+
+.tooltip{
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 400px;
+    display: block;
+    color: bisque;
+    background-color: crimson;
+    font-size: 0.6em;
+    box-shadow: 10px 7px 10px -7px rgba(0, 0, 0, 0.74)
+}
